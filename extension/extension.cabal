@@ -1,0 +1,9 @@
+name:          extension
+version:       1.0.0
+cabal-version: >= 1.8
+build-type:    Simple
+
+library
+  exposed-modules: Main
+  hs-source-dirs:  .
+  build-depends:   base

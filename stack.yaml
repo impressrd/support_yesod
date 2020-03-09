@@ -1,0 +1,12 @@
+resolver: lts-11.13
+packages:
+- 'extension'
+- 'scotty/scotty-hello'
+- 'string/bytestring-byte'
+- 'string/text-no-overload'
+- 'string/text-overload'
+- 'wai/method'
+- 'wai/query'
+- 'wai/route'
+- 'wai/wai-hello'
+- 'template-haskell-hello'

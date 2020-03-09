@@ -1,0 +1,14 @@
+name:          query
+version:       1.0.0
+cabal-version: >= 1.8
+build-type:    Simple
+
+executable query
+  main-is:        Main.hs
+  hs-source-dirs: .
+  ghc-options:    -Wall
+  build-depends:  base >= 4 && < 5
+                , wai
+                , warp
+                , http-types
+                , bytestring

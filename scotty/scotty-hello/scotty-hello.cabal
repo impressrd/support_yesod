@@ -1,0 +1,12 @@
+name:          scotty-hello
+version:       1.0.0
+cabal-version: >= 1.8
+build-type:    Simple
+
+executable scotty-hello
+  main-is:        Main.hs
+  hs-source-dirs: .
+  ghc-options:    -Wall
+  build-depends:  base >= 4 && < 5
+                , scotty
+                , text
